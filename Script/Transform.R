@@ -11,7 +11,7 @@ trans <- function(arg,sample,ref){
   
   if(platform == "rnaseq"){
     o <- log2(sample[,-1]+1)+7
-    sample <- data.frame(as.character(sample[,-1]), as.numeric(o))
+    sample <- data.frame(as.character(sample[,1]), o)
   }
   colnames(sample) <- name
   return(sample)

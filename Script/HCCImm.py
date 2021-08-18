@@ -28,8 +28,5 @@ for o in range(len(test_data.columns)):
 score_adj = pd.DataFrame(score_adj)
 score_adj.columns = im_name
 score_adj.index = filename
-if len(sys.argv[0])>0:
-    score_adj.to_csv(sys.argv[2]+"/score.csv")
-else:
-    score_adj.to_csv("../score.csv")
+score_adj.to_csv(sys.argv[2]+"/score.csv")
 print("Done")
