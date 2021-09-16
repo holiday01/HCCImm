@@ -8,9 +8,6 @@ trans <- function(arg,sample,ref){
       sample <- data.frame(as.character(sample[,1]), as.numeric(o))
       return(sample)
     }
-    else if(normalized == "nraw"){
-      return(sample)
-    }
   }
   
   if(platform == "rnaseq"){
