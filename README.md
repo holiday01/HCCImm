@@ -24,3 +24,4 @@ Users can get the estimated proportions of the 17 immune cells running main.sh. 
    Yen-Jung Chiu (holiday01) and Yen-Hua Huang created this method. holiday01 implemented the code. 
 
 # Reference
+DOI: 10.5281/zenodo.5510824
