@@ -9,7 +9,6 @@ arg = getopt(matrix(c(
 ), byrow=TRUE, ncol=4))
 
 ref <- read.csv("./Data/REFs.csv")
-sample <- read.delim("Data/20200409_LIHC_gene_tpm.txt",sep = "\t")
 input <- arg$input.file.name
 platform <- arg$platform
 normalized <- arg$normalized
