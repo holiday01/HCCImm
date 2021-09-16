@@ -8,7 +8,7 @@ check <- function(arg){
     break
   }
  
-  if(platform == "micararray" | platform == "rnaseq"){}else{
+  if(platform == "microarray" | platform == "rnaseq"){}else{
     print("error: please input correct information of platform (microarray or rnaseq)")
     break
   }
