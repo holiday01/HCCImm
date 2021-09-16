@@ -10,7 +10,7 @@ The data provided in ./Data/REFs.csv is used as the reference gene expression si
 Users can get the estimated proportions of the 17 immune cells running main.sh. The requirement of the script is above,
 * -i, input data (CSV file or TXT file)
 * -p, platform (rnaseq or microarray)
-* -n, if data is raw count (raw or nraw for microarray or tpm for rnaseq)
+* -n, if data is raw count (raw for microarray or tpm for rnaseq)
 * -o, the director that is the output for preprocessing as well as the input for HCCImm
 * -s, the proportions of 17 cells.
 
