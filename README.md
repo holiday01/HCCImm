@@ -2,7 +2,7 @@
 
 
 ## Require
-  R and python. You can download package from setup.sh
+  R and python.
 
 ## Content
 The data provided in ./Data/REFs.csv is used as the reference gene expression signatures (RefGES) for 17 cell types treated in this method.
