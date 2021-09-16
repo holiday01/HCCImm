@@ -6,6 +6,10 @@ trans <- function(arg,sample,ref){
     if(normalized == "raw"){
       o <- preprocessCore::normalize.quantiles.use.target(as.matrix(sample[,-1]),target = as.numeric(unlist(ref[,-1])))
       sample <- data.frame(as.character(sample[,1]), as.numeric(o))
+      return(sample)
+    }
+    else if(normalized == "nraw"){
+      return(sample)
     }
   }
   
