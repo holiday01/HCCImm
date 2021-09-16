@@ -17,7 +17,7 @@ Users can get the estimated proportions of the 17 immune cells running main.sh. 
 
 ## Synopsis
 
-  bash main.sh -i ./Data/example_expression_profile.csv -p micararray -n raw -o ./ -s ./
+  bash main.sh -i ./Data/example_expression_profile.csv -p microarray -n raw -o ./ -s ./
   
 # Contribution
 
